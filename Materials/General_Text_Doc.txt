@@ -1,0 +1,14 @@
+######################### KeyVault to azure devops 2022-02-07
+https://azuredevopslabs.com/labs/vstsextend/azurekeyvault/
+https://learn.microsoft.com/en-us/azure/devops/pipelines/release/azure-key-vault?view=azure-devops&tabs=yaml
+https://www.linkedin.com/pulse/managing-secret-through-azure-key-vault-devops-pipeline-tyagi/
+https://stackoverflow.com/questions/74875835/how-link-azure-devops-library-to-keyvault
+https://learn.microsoft.com/en-us/azure/devops/pipelines/library/variable-groups?view=azure-devops&tabs=yaml
+https://thomasthornton.cloud/2021/06/24/storing-and-retrieving-secrets-in-azure-keyvault-with-variable-groups-in-azure-devops-pipelines/
+https://zimmergren.net/using-azure-key-vault-secrets-from-azure-devops-pipeline/
+https://learn.microsoft.com/en-us/answers/questions/1049352/integrating-ajure-key-vault-rbac-with-ajure-devops
+https://azuredevopslabs.com/labs/vstsextend/azurekeyvault/
+
+######################### Postgress Install Ubuntu 2022-02-07
+https://www.ionos.com/digitalguide/server/configuration/install-postgresql-on-ubuntu-2004/
+https://medium.com/coding-blocks/creating-user-database-and-adding-access-on-postgresql-8bfcd2f4a91e
