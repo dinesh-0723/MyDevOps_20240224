@@ -1,0 +1,15 @@
+############## List Of Azure Storage Account Blob Files pattern file and Download with respective date.
+Storage_Key=""
+Storage_Container_Name="stgct01"
+Storage_Account="stog01"
+Files_Date=""
+Blob_FilesList=$(az storage blob list --account-name $Storage_Account --container-name $Storage_Container_Name --account-key $Storage_Key --query "[].{name:name}" -o tsv | grep backup)
+echo -e "$Blob_FilesList"
+for file in $Blob_FilesList;do
+  if [[ "$file" == *"2024"* ]];then
+    printf '%s\n' "$file"
+	az storage blob download --account-name stog01 --container-name stgct01 --name $file --file $file -o table
+#  else
+#    printf "No Files Found"
+  fi
+done
